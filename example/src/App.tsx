@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { StyleSheet, View, Text, Button } from 'react-native';
-import SunmiBarcodeScanner from 'react-native-sunmi-barcode-scanner';
+import SunmiBarcodeScanner from '@developeraspire/react-native-sunmi-barcode-scanner';
 
 export default function App() {
   const [result, setResult] = useState<number | undefined>();

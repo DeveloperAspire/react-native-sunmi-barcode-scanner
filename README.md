@@ -1,4 +1,4 @@
-# react-native-sunmi-barcode-scanner
+# @developeraspire/react-native-sunmi-barcode-scanner
 
 A React native intergation of the Sunmi device built-in barcode scanner, for android only.
 
@@ -7,19 +7,19 @@ A React native intergation of the Sunmi device built-in barcode scanner, for and
 Yarn
 
 ```sh
-yarn add react-native-sunmi-barcode-scanner
+yarn add @developeraspire/react-native-sunmi-barcode-scanner
 ```
 
 Npm
 
 ```sh
-npm install react-native-sunmi-barcode-scanner
+npm install @developeraspire/react-native-sunmi-barcode-scanner
 ```
 
 ## Usage
 
 ```js
-import SunmiBarcodeScanner from 'react-native-sunmi-barcode-scanner';
+import SunmiBarcodeScanner from '@developeraspire/react-native-sunmi-barcode-scanner';
 
 // ...
 

@@ -1,4 +1,4 @@
-package sunmibarcodescanner.example
+package developeraspire.sunmibarcodescanner.example
 
 import android.app.Application
 import com.facebook.react.PackageList

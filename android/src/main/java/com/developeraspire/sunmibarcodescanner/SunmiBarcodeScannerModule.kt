@@ -1,4 +1,4 @@
-package com.sunmibarcodescanner
+package com.developeraspire.sunmibarcodescanner
 
 import android.app.Activity
 import android.content.Intent

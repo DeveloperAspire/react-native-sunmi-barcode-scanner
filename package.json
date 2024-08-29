@@ -1,5 +1,5 @@
 {
-  "name": "react-native-sunmi-barcode-scanner",
+  "name": "@developeraspire/react-native-sunmi-barcode-scanner",
   "version": "0.1.0",
   "description": "a react native intergation of the sunmi barcode scanner",
   "source": "./src/index.tsx",
@@ -33,7 +33,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-sunmi-barcode-scanner-example",
+    "example": "yarn workspace @developeraspire/react-native-sunmi-barcode-scanner-example",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",

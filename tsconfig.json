@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-sunmi-barcode-scanner": ["./src/index"]
+      "@developeraspire/react-native-sunmi-barcode-scanner": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

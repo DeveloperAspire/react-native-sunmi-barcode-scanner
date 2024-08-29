@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.sunmibarcodescanner">
+          package="com.developeraspire.sunmibarcodescanner">
 
 
     <!-- For devices with target SDK >= 30 (Android 11) -->

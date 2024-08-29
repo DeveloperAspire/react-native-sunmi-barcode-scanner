@@ -49,7 +49,7 @@ def supportsNamespace() {
 
 android {
   if (supportsNamespace()) {
-    namespace "com.sunmibarcodescanner"
+    namespace "com.developeraspire.sunmibarcodescanner"
 
     sourceSets {
       main {
