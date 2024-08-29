@@ -4,6 +4,14 @@ A React native intergation of the Sunmi device built-in barcode scanner, for and
 
 ## Installation
 
+Yarn
+
+```sh
+yarn add react-native-sunmi-barcode-scanner
+```
+
+Npm
+
 ```sh
 npm install react-native-sunmi-barcode-scanner
 ```
