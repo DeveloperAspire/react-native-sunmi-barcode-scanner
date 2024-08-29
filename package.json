@@ -21,10 +21,7 @@
     "src",
     "lib",
     "android",
-    "ios",
     "cpp",
-    "*.podspec",
-    "!ios/build",
     "!android/build",
     "!android/gradle",
     "!android/gradlew",
@@ -46,8 +43,8 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "android",
+    "sunmi"
   ],
   "repository": {
     "type": "git",
