@@ -1,6 +1,6 @@
 {
   "name": "@developeraspire/react-native-sunmi-barcode-scanner",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "a react native intergation of the sunmi barcode scanner",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
