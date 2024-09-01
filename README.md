@@ -4,13 +4,13 @@ A React native intergation of the Sunmi device built-in barcode scanner, for and
 
 ## Installation
 
-Yarn
+Using Yarn
 
 ```sh
 yarn add @developeraspire/react-native-sunmi-barcode-scanner
 ```
 
-Npm
+Using Npm
 
 ```sh
 npm install @developeraspire/react-native-sunmi-barcode-scanner
@@ -21,9 +21,10 @@ npm install @developeraspire/react-native-sunmi-barcode-scanner
 ```js
 import SunmiBarcodeScanner from '@developeraspire/react-native-sunmi-barcode-scanner';
 
-// ...
-
 const scannedCode = await SunmiBarcodeScanner.startScanner();
+
+console.log("Scanned Code:" scannedCode)
+
 ```
 
 ## Contributing
@@ -36,6 +37,6 @@ MIT
 
 ---
 
-Created by Franklin Okolie
+Created by [Franklin Okolie](https://github.com/DeveloperAspire)
 
-Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob)
+<!-- Made with [create-react-native-library](https://github.com/callstack/react-native-builder-bob) -->
