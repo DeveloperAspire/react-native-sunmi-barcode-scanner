@@ -72,8 +72,8 @@ class SunmiBarcodeScannerModule(private val reactContext: ReactApplicationContex
     override fun onActivityResult(activity: Activity, requestCode: Int, resultCode: Int, data: Intent?) {
       if (requestCode == REQUEST_CODE_SCAN) {
         if (resultCode == Activity.RESULT_OK) {
-          val codesArray: WritableArray = WritableNativeArray()
           if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+
             // Use the type-safe method for API 34+
            val result =  data?.extras?.getSerializable("data") as ArrayList<HashMap<String, String>>
             result.iterator().forEach { hashmap ->
@@ -83,6 +83,7 @@ class SunmiBarcodeScannerModule(private val reactContext: ReactApplicationContex
           } else {
             // Use the deprecated method for older APIs
             // Use the type-safe method for API 34+
+
             val result = data?.extras?.getSerializable("data") as ArrayList<HashMap<String, String>>
             result.iterator().forEach { hashmap ->
               val scannedValue = hashmap["VALUE"] ?: "";
